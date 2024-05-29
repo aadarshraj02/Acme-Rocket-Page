@@ -636,6 +636,14 @@ video {
   scroll-margin-top: 10rem;
 }
 
+.scroll-mt-16 {
+  scroll-margin-top: 4rem;
+}
+
+.scroll-mt-2 {
+  scroll-margin-top: 0.5rem;
+}
+
 .list-none {
   list-style-type: none;
 }
