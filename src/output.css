@@ -628,6 +628,10 @@ video {
   max-width: 28rem;
 }
 
+.max-w-4 {
+  max-width: 1rem;
+}
+
 .scroll-mt-20 {
   scroll-margin-top: 5rem;
 }
@@ -656,6 +660,10 @@ video {
   flex-direction: column-reverse;
 }
 
+.items-start {
+  align-items: flex-start;
+}
+
 .items-center {
   align-items: center;
 }
@@ -670,6 +678,10 @@ video {
 
 .gap-8 {
   gap: 2rem;
+}
+
+.gap-4 {
+  gap: 1rem;
 }
 
 .space-x-8 > :not([hidden]) ~ :not([hidden]) {
