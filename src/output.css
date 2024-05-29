@@ -566,8 +566,29 @@ video {
   z-index: 10;
 }
 
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex {
+  display: flex;
+}
+
 .min-h-screen {
   min-height: 100vh;
+}
+
+.max-w-4xl {
+  max-width: 56rem;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
 }
 
 .bg-slate-50 {
@@ -578,6 +599,10 @@ video {
 .bg-teal-700 {
   --tw-bg-opacity: 1;
   background-color: rgb(15 118 110 / var(--tw-bg-opacity));
+}
+
+.p-4 {
+  padding: 1rem;
 }
 
 .text-white {
