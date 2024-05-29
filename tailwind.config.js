@@ -4,10 +4,10 @@ module.exports = {
   theme: {
     extend: {
       screens:{
-        'widescreen':{
+        widescreen:{
           'raw':'(min-aspect-ratio:3/2)'
         },
-        'tallscreen':{
+        tallscreen:{
           'raw':'(min-aspect-ratio:1/2)'
         },
       }
